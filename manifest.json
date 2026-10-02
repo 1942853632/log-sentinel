@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"Log Sentinel","version":"0.1.0","description":"Analyze pasted logs for incident signals and privacy leaks locally.","permissions":["sidePanel","activeTab"],"action":{"default_title":"Open Log Sentinel"},"background":{"service_worker":"background.js","type":"module"},"side_panel":{"default_path":"sidepanel.html"}}
