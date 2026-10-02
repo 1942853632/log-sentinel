@@ -10,6 +10,10 @@ Log Sentinel is a local-only Chrome side-panel extension for first-response log 
 - Separation between a pure TypeScript analyzer and the Chrome UI
 - Privacy by default: no network requests, model calls or API keys
 
+## Interview-ready engineering story
+
+The project demonstrates a small observability pipeline: normalize log lines, apply ordered detection rules, preserve bounded evidence, then produce a deterministic incident verdict. The core can later be reused by a support bot or CI check without changing the browser UI.
+
 ## Run
 
 ```bash
